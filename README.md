@@ -1,5 +1,4 @@
 # 👋 Hey, I'm Plag
-
 **DeFi Builder | Crypto Author | Base Ecosystem**
 
 Building the future of decentralized finance on [Base](https://base.org) 🔵
@@ -8,11 +7,22 @@ Building the future of decentralized finance on [Base](https://base.org) 🔵
 
 ## 🚀 What I'm Building
 
+### 💧 [Spraay](https://spraay.app)
+Batch crypto payments made simple. Send to 200+ recipients in a single transaction on Base.
+
+- ⚡ ~80% gas savings vs individual transfers
+- 📊 Batch ETH & ERC-20 tokens with variable amounts
+- 📁 CSV import for large distributions
+- 🔗 Social handle resolution (Farcaster, ENS)
+- 🤖 Integrated with [Bankr](https://bankr.bot) AI agent (69K+ users)
+- 💎 0.3% protocol fee
+
+🔗 [Try it now →](https://spraay.app) | [Contract →](https://basescan.org/address/0x1646452F98E36A3c9Cfc3eDD8868221E207B5eEC) | [GitHub →](https://github.com/plagtech/spray-app)
+
 ### 🥭 [MangoSwap](https://mangoswap.xyz)
-A next-gen DEX on Base featuring instant swaps, limit orders, and scheduled trading with gas-free transactions.
+A next-gen DEX on Base featuring instant swaps and scheduled trading with gas-free transactions.
 
 - ⚡ Instant token swaps with best price execution
-- 🎯 Automated limit orders
 - ⏰ Recurring scheduled swaps (DCA made easy)
 - ⛽ Gas-free trading via Coinbase Paymaster
 - 📦 EIP-5792 transaction batching
@@ -42,7 +52,7 @@ Tools:         EIP-5792, Coinbase Paymaster
 
 ## 🎯 Current Focus
 
-- 🔨 Expanding MangoSwap features and liquidity
+- 🔨 Expanding Spraay & MangoSwap features
 - 📈 Growing Base ecosystem presence
 - 🤝 Building in the Base Build cohort
 - 📝 Creating educational DeFi content
@@ -59,10 +69,8 @@ Tools:         EIP-5792, Coinbase Paymaster
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/lostpoet)
 [![Twitter](https://img.shields.io/badge/MangoSwap-FF6B00?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mngoswp)
-[![Farcaster](https://img.shields.io/badge/Farcaster-855DCD?style=for-the-badge&logo=ethereum&logoColor=white)](https://farcaster.xyz/plag)
-[![Website](https://img.shields.io/badge/MangoSwap-0052FF?style=for-the-badge&logo=ethereum&logoColor=white)](https://mangoswap.xyz)
-
-**Base App:** `plag.farcaster.eth`
+[![MangoSwap](https://img.shields.io/badge/MangoSwap-0052FF?style=for-the-badge&logo=ethereum&logoColor=white)](https://mangoswap.xyz)
+[![Spraay](https://img.shields.io/badge/Spraay-8B0000?style=for-the-badge&logo=ethereum&logoColor=white)](https://spraay.app)
 
 ---
 
