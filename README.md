@@ -11,10 +11,11 @@ Building the future of decentralized finance on [Base](https://base.org) 🔵
 Batch crypto payments made simple. Send to 200+ recipients in a single transaction on Base.
 
 - ⚡ ~80% gas savings vs individual transfers
-- 📊 Batch ETH & ERC-20 tokens with variable amounts
+- 📊 Batch ETH & ERC-20 tokens with equal or variable amounts
 - 📁 CSV import for large distributions
 - 🔗 Social handle resolution (Farcaster, ENS)
-- 🤖 Integrated with [Bankr](https://bankr.bot) AI agent (69K+ users)
+- 🤖 [Coinbase AgentKit integration](https://github.com/coinbase/agentkit/pull/944) — AI agents can batch-send autonomously
+- 🧠 Integrated with [Bankr](https://bankr.bot) AI agent (69K+ users)
 - 💎 0.3% protocol fee
 
 🔗 [Try it now →](https://spraay.app) | [Contract →](https://basescan.org/address/0x1646452F98E36A3c9Cfc3eDD8868221E207B5eEC) | [GitHub →](https://github.com/plagtech/spray-app)
@@ -26,6 +27,7 @@ A next-gen DEX on Base featuring instant swaps and scheduled trading with gas-fr
 - ⏰ Recurring scheduled swaps (DCA made easy)
 - ⛽ Gas-free trading via Coinbase Paymaster
 - 📦 EIP-5792 transaction batching
+- 🔄 Routes through Uniswap V3 & Aerodrome
 
 🔗 [Try it now →](https://mangoswap.xyz) | [GitHub →](https://github.com/plagtech/mangoswap)
 
@@ -45,7 +47,8 @@ Sharing insights and strategies from years of experience navigating the crypto m
 Blockchain:    Solidity, Base, Ethereum
 Frontend:      React, TypeScript, TailwindCSS
 Web3:          Wagmi, Viem, RainbowKit
-Tools:         EIP-5792, Coinbase Paymaster
+AI/Agents:     Coinbase AgentKit, Bankr OpenClaw
+Tools:         EIP-5792, Coinbase Paymaster, OpenZeppelin
 ```
 
 ---
@@ -53,6 +56,7 @@ Tools:         EIP-5792, Coinbase Paymaster
 ## 🎯 Current Focus
 
 - 🔨 Expanding Spraay & MangoSwap features
+- 🤖 AI agent integrations (AgentKit, Bankr)
 - 📈 Growing Base ecosystem presence
 - 🤝 Building in the Base Build cohort
 - 📝 Creating educational DeFi content
