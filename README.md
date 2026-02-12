@@ -63,13 +63,14 @@ Sharing insights and strategies from years of experience navigating the crypto m
 ---
 
 ## 🛠️ Tech Stack
-
+```
 Blockchain:    Solidity, Base, Ethereum, Plasma, Bittensor (Substrate)
 Frontend:      React, TypeScript, TailwindCSS
 Web3:          Wagmi, Viem, RainbowKit
 AI/Agents:     Coinbase AgentKit, Bankr OpenClaw
 Backend:       Python, bittensor SDK
 Tools:         EIP-5792, Coinbase Paymaster, OpenZeppelin
+```
 
 ---
 ## 🎯 Current Focus
