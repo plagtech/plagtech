@@ -7,40 +7,43 @@ Building the future of decentralized finance on [Base](https://base.org) 🔵, [
 
 ## 🚀 What I'm Building
 
+### 🌐 [Spraay x402 Gateway](https://gateway.spraay.app)
+An autonomous payment gateway on Base mainnet. AI agents pay USDC per request to access AI models, batch payments, and DeFi data. No API keys, no accounts — just HTTP + crypto.
+
+- 🤖 200+ AI models via OpenAI-compatible API ($0.005/req)
+- 💸 Batch USDC payments via Spraay protocol ($0.01/req)
+- 📊 Live swap quotes from Uniswap V3 ($0.002/req)
+- 🏪 Bazaar discoverable — agents find endpoints autonomously
+- 🔗 Coinbase CDP facilitator on Base mainnet
+- ⚡ Built on [x402 protocol](https://x402.org)
+
+🔗 [Live →](https://gateway.spraay.app) | [GitHub →](https://github.com/plagtech/spraay-x402-gateway)
+
 ### 💧 [Spraay](https://spraay.app)
-Batch crypto payments made simple. Send to 200+ recipients in a single transaction on Base.
+Multi-chain batch payment protocol. Send to 200+ recipients in a single transaction. Each chain has its own integrated batch payment app:
 
+- 🔵 **[Base](https://spraay.app)** — Batch ETH & ERC-20 tokens on Base
+- ⚡ **[Plasma](https://spraay.app/plasma)** — Batch XPL, USDT0 & ERC-20s with sub-second finality
+- 🟣 **[Unichain](https://spraay.app/unichain)** — Batch payments on Unichain
+- 🟢 **[Bittensor](https://spraay.app/tao)** — Native TAO batch transfers via `utility.batch_all` for subnet operators
+
+**Features across chains:**
 - ⚡ ~80% gas savings vs individual transfers
-- 📊 Batch ETH & ERC-20 tokens with equal or variable amounts
-- 📁 CSV import for large distributions
+- 📊 Equal or variable amount distributions
+- 📁 CSV import for large batches
 - 🔗 Social handle resolution (Farcaster, ENS)
-- 🤖 [Coinbase AgentKit integration](https://github.com/coinbase/agentkit/pull/944) — AI agents can batch-send autonomously
-- 🧠 Integrated with [Bankr](https://bankr.bot) AI agent (69K+ users)
 - 💎 0.3% protocol fee
 
-🔗 [Try it now →](https://spraay.app) | [Contract →](https://basescan.org/address/0x1646452F98E36A3c9Cfc3eDD8868221E207B5eEC) | [GitHub →](https://github.com/plagtech/spray-app)
+🔗 [spraay.app →](https://spraay.app) | [Base Contract →](https://basescan.org/address/0x1646452F98E36A3c9Cfc3eDD8868221E207B5eEC) | [Plasma Contract →](https://plasmascan.to/address/0x08fA5D1c16CD6E2a16FC0E4839f262429959E073)
 
-### ⚡ [Spraay Plasma](https://spraay.app/plasma)
-The first batch payment tool on Plasma L1. Send XPL, USDT0, or any ERC-20 to 200+ recipients in one transaction.
+### 📱 [Spraay Base App](https://spraay-base-dapp.vercel.app)
+A standalone dapp on Base with batch payments and fiat onramp. Separate from spraay.app — built with OnchainKit + ethers.js.
 
-- 💵 USDT0 batch payments — built for stablecoin-scale distributions
-- 🪙 Supports XPL (native) + USDT0 + any ERC-20 token
-- ⚡ Sub-second finality with ultra-low gas fees
-- ✅ Verified on [Plasmascan](https://plasmascan.to/address/0x08fA5D1c16CD6E2a16FC0E4839f262429959E073)
-- 💎 0.3% protocol fee
+- 💸 Batch USDC payments on Base
+- 💳 Coinbase Onramp — buy crypto directly in-app with fiat
+- 🔗 Built with Next.js, OnchainKit, ethers.js v5
 
-🔗 [Learn more →](https://spraay.app/plasma) | [Contract →](https://plasmascan.to/address/0x08fA5D1c16CD6E2a16FC0E4839f262429959E073) | [GitHub →](https://github.com/plagtech/spraay-plasma)
-
-### 💧 [Spraay TAO](https://spraay.app/tao)
-Batch TAO payments for the Bittensor ecosystem. Built for subnet operators, validators, and miners distributing rewards.
-
-- 🧬 Native TAO batch transfers via `utility.batch_all`
-- 🧪 Testnet validated — [extrinsic proof](https://test.finney.opentensor.ai)
-- 🐍 Python CLI + API (bittensor SDK)
-- 💎 0.3% protocol fee
-- 🎯 Built for subnet reward distribution, team payroll, and airdrop campaigns
-
-🔗 [Learn more →](https://spraay.app/tao) | [GitHub →](https://github.com/plagtech/spraay-tao)
+🔗 [Try it →](https://spraay-base-dapp.vercel.app) | [GitHub →](https://github.com/plagtech/spraay-base-app)
 
 ### 🥭 [MangoSwap](https://mangoswap.xyz)
 A next-gen DEX on Base featuring instant swaps and scheduled trading with gas-free transactions.
@@ -55,6 +58,12 @@ A next-gen DEX on Base featuring instant swaps and scheduled trading with gas-fr
 
 ---
 
+## 🤖 Agent Integrations (Pending)
+- [Coinbase AgentKit PR #944](https://github.com/coinbase/agentkit/pull/944) — AI agents batch-send via Spraay (pending approval)
+- [Bankr OpenClaw](https://bankr.bot) — Submitted Spraay skill for Bankr AI agent (69K+ users, pending approval)
+
+---
+
 ## 📚 Author
 **"28 Tips for Creating Wealth in Crypto"**
 
@@ -64,23 +73,24 @@ Sharing insights and strategies from years of experience navigating the crypto m
 
 ## 🛠️ Tech Stack
 ```
-Blockchain:    Solidity, Base, Ethereum, Plasma, Bittensor (Substrate)
-Frontend:      React, TypeScript, TailwindCSS
-Web3:          Wagmi, Viem, RainbowKit
-AI/Agents:     Coinbase AgentKit, Bankr OpenClaw
-Backend:       Python, bittensor SDK
-Tools:         EIP-5792, Coinbase Paymaster, OpenZeppelin
+Blockchain:    Solidity, Base, Ethereum, Plasma, Unichain, Bittensor (Substrate)
+Frontend:      React, Next.js, TypeScript, TailwindCSS
+Web3:          Wagmi, Viem, OnchainKit, ethers.js, RainbowKit
+AI/Agents:     x402 Protocol, Coinbase AgentKit, Bankr OpenClaw
+Backend:       Python, bittensor SDK, Express, OpenRouter
+Infra:         Railway, Vercel, Coinbase CDP, Coinbase Paymaster
+Tools:         EIP-5792, Coinbase Onramp, OpenZeppelin
 ```
 
 ---
+
 ## 🎯 Current Focus
-- 🔨 Expanding Spraay multi-chain (Base, Plasma, and beyond)
-- 💵 USDT0 batch payments on Plasma
-- 🧬 Growing Spraay TAO for Bittensor subnet operators
-- 🤖 AI agent integrations (AgentKit, Bankr)
+- 🌐 Growing the Spraay x402 Gateway — AI agent infrastructure on Base
+- 🔨 Expanding Spraay multi-chain (Base, Plasma, Unichain, Bittensor)
+- 💳 Coinbase Onramp integration in Spraay Base App
+- 🤖 AI agent integrations (AgentKit, Bankr, x402 Bazaar)
 - 📈 Growing Base, Plasma & Bittensor ecosystem presence
 - 🤝 Building in the Base Build cohort
-- 📝 Creating educational DeFi content
 
 ---
 
@@ -90,16 +100,15 @@ Tools:         EIP-5792, Coinbase Paymaster, OpenZeppelin
 ---
 
 ## 🔗 Connect
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/spraay_app)
+[![Twitter](https://img.shields.io/badge/Spraay-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/spraay_app)
 [![Twitter](https://img.shields.io/badge/MangoSwap-FF6B00?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mngoswp)
+[![Twitter](https://img.shields.io/badge/LostPoet-000000?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/lostpoet)
 [![MangoSwap](https://img.shields.io/badge/MangoSwap-0052FF?style=for-the-badge&logo=ethereum&logoColor=white)](https://mangoswap.xyz)
 [![Spraay](https://img.shields.io/badge/Spraay-8B0000?style=for-the-badge&logo=ethereum&logoColor=white)](https://spraay.app)
+[![Farcaster](https://img.shields.io/badge/Farcaster-855DCD?style=for-the-badge&logo=farcaster&logoColor=white)](https://warpcast.com/plag)
 
 ---
 
 <div align="center">
   <sub>Building on Base, Plasma & Bittensor 🔵⚡🟢</sub>
-</div>
-<div align="center">
-  <sub>Building on Base & Bittensor since 2024 🔵🟢</sub>
 </div>
