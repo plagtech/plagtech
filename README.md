@@ -16,8 +16,26 @@ An autonomous payment gateway on Base mainnet. AI agents pay USDC per request to
 - 🏪 Bazaar discoverable — agents find endpoints autonomously
 - 🔗 Coinbase CDP facilitator on Base mainnet
 - ⚡ Built on [x402 protocol](https://x402.org)
+- 🤖 **MCP Server available:** [spraay-x402-mcp](https://github.com/plagtech/spraay-x402-mcp) — plug into Claude Desktop or Cursor
 
 🔗 [Live →](https://gateway.spraay.app) | [GitHub →](https://github.com/plagtech/spraay-x402-gateway)
+
+### 🤖 Spraay x402 MCP Server
+**[github.com/plagtech/spraay-x402-mcp](https://github.com/plagtech/spraay-x402-mcp)**
+
+MCP server for the Spraay x402 Gateway — connects Claude Desktop, Cursor, or any MCP-compatible AI client to onchain data, AI models, and batch payments on Base. 9 tools, pay-per-call in USDC.
+
+| Tool | Cost | What It Does |
+|------|------|--------------|
+| `spraay_chat` | $0.005 | AI chat via 200+ models |
+| `spraay_prices` | $0.002 | Live onchain token prices |
+| `spraay_balances` | $0.002 | ETH + ERC-20 balances |
+| `spraay_resolve` | $0.001 | ENS & Basename resolution |
+| `spraay_batch_execute` | $0.01 | Batch USDC payments |
+| `spraay_swap_quote` | $0.002 | Uniswap V3 swap quotes |
+| + 3 more | $0.001+ | Models, tokens, gas estimates |
+
+**Listed on:** [Smithery](https://smithery.ai) · [MCP.so](https://mcp.so) · [x402scan](https://x402scan.com) · [LobeHub MCP](https://lobehub.com/mcp)
 
 ### 💧 [Spraay](https://spraay.app)
 Multi-chain batch payment protocol. Send to 200+ recipients in a single transaction. Each chain has its own integrated batch payment app:
