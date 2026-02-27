@@ -1,7 +1,7 @@
 # 👋 Hey, I'm Plag
-**DeFi Builder | Crypto Author | Base, Plasma, BOB & Bittensor Ecosystem**
+**DeFi Builder | Crypto Author | Multi-Chain Ecosystem**
 
-Building the future of decentralized finance on [Base](https://base.org) 🔵, [Plasma](https://plasma.to) ⚡, [BOB](https://gobob.xyz) 🟠, and [Bittensor](https://bittensor.com) 🟢
+Building the future of decentralized finance across 10 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧠
 
 ---
 
@@ -36,33 +36,33 @@ MCP server for the Spraay x402 Gateway — connects Claude Desktop, Cursor, or a
 | `spraay_swap_quote` | $0.002 | Uniswap V3 swap quotes |
 | + 3 more | $0.001+ | Models, tokens, gas estimates |
 
-**Listed on:** [Smithery](https://smithery.ai) · [MCP.so](https://mcp.so) · [x402scan](https://x402scan.com) · [LobeHub MCP](https://lobehub.com/mcp)
+**Listed on:** [Smithery](https://smithery.ai) · [MCP.so](https://mcp.so) · [x402scan](https://x402scan.com) · [LobeHub MCP](https://lobehub.com/mcp) · [Glama](https://glama.ai/mcp/servers/@plagtech/spraay-x402-mcp)
 
 ### 💧 [Spraay](https://spraay.app)
-Multi-chain batch payment protocol. Send any ERC-20 token or native ETH to 200+ recipients in a single transaction.
+Multi-chain batch payment protocol — live on **10 chains**. Send any ERC-20 token or native currency to 200+ recipients in a single transaction.
 
-- 🔵 **[Base](https://spraay.app)** — Any ERC-20 token + native ETH
-- 🟠 **[BOB](https://spraay.app/bob)** — Batch payments on Build on Bitcoin
-- ⚡ **[Plasma](https://spraay.app/plasma)** — Batch XPL, USDT0 & ERC-20s with sub-second finality
-- 🟣 **[Unichain](https://spraay.app/unichain)** — Batch payments on Unichain
-- 🟢 **[Bittensor](https://spraay.app/tao)** — Native TAO batch transfers via `utility.batch_all` for subnet operators
+**Live Deployments:**
+
+| Chain | Contract | Native + Token Support |
+|-------|----------|----------------------|
+| 🔵 [Base](https://spraay.app) | [`0x1646...B5eEC`](https://basescan.org/address/0x1646452F98E36A3c9Cfc3eDD8868221E207B5eEC) | ETH + Any ERC-20 |
+| ⟠ [Ethereum](https://spraay.app/ethereum) | [`0x1646...B5eEC`](https://etherscan.io/address/0x1646452F98E36A3c9Cfc3eDD8868221E207B5eEC) | ETH + Any ERC-20 |
+| ⬡ [Arbitrum](https://spraay.app/arbitrum) | [`0x08fA...E073`](https://arbiscan.io/address/0x08fA5D1c16CD6E2a16FC0E4839f262429959E073) | ETH + Any ERC-20 |
+| 🟣 [Polygon](https://spraay.app/polygon) | [`0x6d24...D7ff`](https://polygonscan.com/address/0x6d2453ab7416c99aeDCA47CF552695be5789D7ff) | POL + Any ERC-20 |
+| 🟡 [BNB Chain](https://spraay.app/bnb) | [`0x3093...95C1`](https://bscscan.com/address/0x3093a2951FB77b3beDfB8BA20De645F7413432C1) | BNB + Any BEP-20 |
+| 🔺 [Avalanche](https://spraay.app/avalanche) | [`0x0613...A650`](https://snowtrace.io/address/0x0613800F110A5baF830d15944f4AD783F066A650) | AVAX + Any ERC-20 |
+| 🦄 [Unichain](https://spraay.app/unichain) | [`0x08fA...E073`](https://uniscan.xyz/address/0x08fA5D1c16CD6E2a16FC0E4839f262429959E073) | ETH + Any ERC-20 |
+| 🟢 [Plasma](https://spraay.app/plasma) | [`0x08fA...E073`](https://plasmascan.to/address/0x08fA5D1c16CD6E2a16FC0E4839f262429959E073) | XPL + Any ERC-20 |
+| 🔶 [BOB](https://spraay.app/bob) | [`0xEc85...4973`](https://explorer.gobob.xyz/address/0xEc8599026AE70898391a71c96AA82d4840C2e973) | ETH + Any ERC-20 |
+| 🧠 [Bittensor](https://spraay.app/tao) | spraay-tao | TAO (native `utility.batch_all`) |
 
 **Features across chains:**
 - ⚡ ~80% gas savings vs individual transfers
-- 🪙 Supports any ERC-20 token + native ETH
+- 🪙 Supports any ERC-20/BEP-20 token + native currency
 - 📊 Equal or variable amount distributions
 - 📁 CSV import for large batches
 - 🔗 Social handle resolution (Farcaster, ENS)
 - 💎 0.3% protocol fee
-
-**Contracts:**
-| Chain | Contract | Version |
-|-------|----------|---------|
-| Base | [`0x16464...`](https://basescan.org/address/0x1646452F98E36A3c9Cfc3eDD8868221E207B5eEC) | V2 |
-| Unichain | [`0x08fA5D...`](https://uniscan.xyz/address/0x08fA5D1c16CD6E2a16FC0E4839f262429959E073) | V2 |
-| BOB | Deployed | V2 |
-| Plasma | Deployed | V2 |
-| Bittensor | spraay-tao | Native |
 
 🔗 [spraay.app →](https://spraay.app)
 
@@ -93,9 +93,10 @@ A next-gen DEX on Base featuring instant swaps and scheduled trading with gas-fr
 - **XMTP Agent:** Agent Mango on production network
 - **ERC-8004:** Registered agent identity on Ethereum mainnet
 - **x402 Gateway:** 9 paid endpoints, Bazaar discoverable
-- **MCP Server:** Listed on 4+ directories
+- **MCP Server:** Listed on 5+ directories
 - [Coinbase AgentKit PR #944](https://github.com/coinbase/agentkit/pull/944) — AI agents batch-send via Spraay
 - [Bankr OpenClaw](https://bankr.bot) — Submitted Spraay skill for Bankr AI agent (69K+ users)
+- [Block Goose PR #7525](https://github.com/block/goose/pull/7525) — Spraay MCP extension tutorial
 
 ---
 
@@ -108,7 +109,8 @@ Sharing insights and strategies from years of experience navigating the crypto m
 
 ## 🛠️ Tech Stack
 ```
-Blockchain:    Solidity, Base, Ethereum, Plasma, Unichain, BOB, Bittensor (Substrate)
+Blockchain:    Solidity, Base, Ethereum, Arbitrum, Polygon, BNB Chain,
+               Avalanche, Unichain, Plasma, BOB, Bittensor (Substrate)
 Frontend:      React, Next.js, TypeScript, TailwindCSS
 Web3:          Wagmi, Viem, OnchainKit, ethers.js, RainbowKit
 AI/Agents:     x402 Protocol, Coinbase AgentKit, ERC-8004, A2A, XMTP, MCP
@@ -121,11 +123,10 @@ Tools:         EIP-5792, Coinbase Onramp, OpenZeppelin
 ---
 
 ## 🎯 Current Focus
-- 🪙 Spraay — batch payments for any ERC-20 + ETH, live on Base
+- 💧 Spraay — batch payments live on 10 chains
 - 🌐 Growing the Spraay x402 Gateway — AI agent infrastructure
-- 🔨 Expanding Spraay multi-chain (Base, BOB, Plasma, Unichain, Bittensor)
-- 🤖 AI agent integrations (AgentKit, Bankr, x402 Bazaar, A2A, XMTP)
-- 📈 Growing Base, Plasma, BOB & Bittensor ecosystem presence
+- 🤖 AI agent integrations (AgentKit, Bankr, x402 Bazaar, A2A, XMTP, Goose)
+- 📈 Expanding MCP server distribution across directories
 - 🤝 Building in the Base Build cohort
 
 ---
@@ -146,5 +147,5 @@ Tools:         EIP-5792, Coinbase Onramp, OpenZeppelin
 ---
 
 <div align="center">
-  <sub>Building on Base, Plasma, BOB & Bittensor 🔵⚡🟠🟢</sub>
+  <sub>Building on 10 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧠</sub>
 </div>
