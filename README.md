@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Plag
+# 👋 Hey, I'm Plagtech
 **DeFi Builder | Crypto Author | Multi-Chain Ecosystem**
 
 Building the future of decentralized finance across 11 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧡🧠
