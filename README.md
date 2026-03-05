@@ -8,25 +8,23 @@ Building the future of decentralized finance across 11 chains 🔵⟠⬡🟣🟡
 ## 🚀 What I'm Building
 
 ### 🌐 [Spraay x402 Gateway](https://gateway.spraay.app) — v3.0.0
-A full-stack autonomous payment gateway on Base mainnet. AI agents pay USDC per request to access DeFi, payments, AI inference, analytics, payroll, escrow, XMTP messaging, scheduling, storage, KYC, audit trail, tax, and 200+ AI models. No API keys, no accounts — just HTTP + crypto.
+A full-stack autonomous payment gateway on Base mainnet. AI agents pay USDC per request to access DeFi, payments, AI inference, analytics, payroll, escrow, and 200+ AI models. No API keys, no accounts — just HTTP + crypto.
 
 - 🤖 200+ AI models via OpenAI-compatible API
 - 💸 Batch payments — any ERC-20 token + native ETH via Spraay
 - 🔗 Bridge, swap, payroll, invoicing, escrow, oracle, analytics
 - 🧠 AI inference — wallet classification, tx analysis, contract explanation
-- 📡 Webhooks, XMTP messaging, scheduler, IPFS/Arweave storage
-- 🔐 KYC/identity, auth, audit trail, tax reporting
 - 🏪 Bazaar discoverable — agents find endpoints autonomously
 - 🔗 Coinbase CDP facilitator on Base mainnet
 - ⚡ Built on [x402 protocol](https://x402.org)
-- 📡 **57 paid + 6 free endpoints** | [Discovery →](https://gateway.spraay.app/.well-known/x402.json)
+- 📡 **33 paid + 6 free endpoints** | [Discovery →](https://gateway.spraay.app/.well-known/x402.json)
 
 🔗 [Live →](https://gateway.spraay.app) | [GitHub →](https://github.com/plagtech/spraay-x402-gateway)
 
 ### 🤖 Spraay x402 MCP Server — v3.1.0
 **[mcp.spraay.app](https://mcp.spraay.app) · [github.com/plagtech/spraay-x402-mcp](https://github.com/plagtech/spraay-x402-mcp)**
 
-57 tools across 16 categories — connects Claude Desktop, Cursor, or any MCP-compatible AI to full-stack DeFi infrastructure on Base. Pay USDC per call via x402 protocol.
+33 tools across 11 categories — connects Claude Desktop, Cursor, or any MCP-compatible AI to full-stack DeFi infrastructure on Base. Pay USDC per call via x402 protocol.
 
 ```json
 {
@@ -40,7 +38,7 @@ A full-stack autonomous payment gateway on Base mainnet. AI agents pay USDC per 
 }
 ```
 
-**Categories:** AI · Payments · Swap · Oracle · Bridge · Payroll · Invoice · Analytics · Escrow · AI Inference · Webhooks · XMTP · Scheduler · IPFS · KYC · Auth · Audit · Tax · Data
+**Categories:** AI · Payments · Swap · Oracle · Bridge · Payroll · Invoice · Analytics · Escrow · AI Inference · Data
 
 **Listed on:** [Smithery](https://smithery.ai/servers/Plagtech/Spraay-x402-mcp) · [MCP.so](https://mcp.so) · [Glama](https://glama.ai/mcp/servers/@plagtech/spraay-x402-mcp) · [PulseMCP](https://pulsemcp.com) · [mcp.spraay.app](https://mcp.spraay.app)
 
@@ -63,7 +61,7 @@ Multi-chain batch payment protocol — live on **11 chains**. Send any ERC-20 to
 | 🧡 [Solana](https://spraay.app/solana) | TypeScript SDK | SOL + Any SPL Token |
 | 🧠 [Bittensor](https://spraay.app/tao) | spraay-tao | TAO (native `utility.batch_all`) |
 
-**Features across chains:**
+**Features:**
 - ⚡ ~80% gas savings vs individual transfers
 - 🪙 Supports any ERC-20/BEP-20/SPL token + native currency
 - 📊 Equal or variable amount distributions
@@ -74,7 +72,7 @@ Multi-chain batch payment protocol — live on **11 chains**. Send any ERC-20 to
 🔗 [spraay.app →](https://spraay.app)
 
 ### 📱 [Spraay Base App](https://spraay-base-dapp.vercel.app)
-Standalone dapp on Base with batch payments, farcaster mini app, and fiat onramp.
+Standalone dapp on Base with batch payments, Farcaster Mini App, and fiat onramp.
 
 - 💸 Batch payments on Base (any ERC-20 + ETH)
 - 💳 Coinbase Onramp — buy crypto directly in-app
@@ -100,12 +98,12 @@ DEX on Base with instant swaps and scheduled trading via gas-free transactions.
 
 | Protocol | Details |
 |----------|---------|
-| **x402 Gateway** | 57 paid endpoints, Bazaar discoverable, v3.0.0 |
-| **MCP Server** | 57 tools, v3.1.0, live at mcp.spraay.app |
-| **A2A Agent Card** | [agent.spraay.app](https://agent.spraay.app/.well-known/agent-card.json) — Google A2A protocol |
-| **XMTP Agent** | Agent Mango on production network (Fly.io) |
+| **x402 Gateway** | 33 paid endpoints, Bazaar discoverable, v3.0.0 |
+| **MCP Server** | 33 tools, v3.1.0, live at mcp.spraay.app |
+| **A2A Agent Card** | [agent.spraay.app](https://agent.spraay.app/.well-known/agent-card.json) |
+| **XMTP Agent** | Agent Mango on production network |
 | **ERC-8004** | Registered agent identities on Ethereum mainnet (#26345, #26346) |
-| **Solana Gateway** | [gateway-solana.spraay.app](https://gateway-solana.spraay.app) — x402 on Solana |
+| **Solana Gateway** | [gateway-solana.spraay.app](https://gateway-solana.spraay.app) |
 
 **Ecosystem integrations:**
 - [coinbase/x402 ecosystem listing](https://github.com/coinbase/x402) ✅ merged
@@ -116,6 +114,7 @@ DEX on Base with instant swaps and scheduled trading via gas-free transactions.
 - [Block Goose PR #7525](https://github.com/block/goose/pull/7525) — open
 - [smolagents/Hugging Face PR #1997](https://github.com/huggingface/smolagents/pull/1997) — open
 - [Bankr OpenClaw](https://bankr.bot) — open
+
 ---
 
 ## 📚 Author
@@ -141,8 +140,8 @@ Tools:         EIP-5792, Coinbase Onramp, OpenZeppelin, OpenRouter
 ---
 
 ## 🎯 Current Focus
-- 💧 Spraay x402 Gateway v3.0.0 — 57 endpoints, 11 chains
-- 🤖 MCP server v3.1.0 — 57 tools, live at mcp.spraay.app
+- 💧 Spraay x402 Gateway v3.0.0 — 33 endpoints live, expanding to 57
+- 🤖 MCP server v3.1.0 — 33 tools, live at mcp.spraay.app
 - 📈 Ecosystem grants (Arbitrum, Monad, Stacks, Agent Fund)
 - 🤝 Building in the Base Build cohort
 
