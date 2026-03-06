@@ -7,24 +7,26 @@ Building the future of decentralized finance across 11 chains 🔵⟠⬡🟣🟡
 
 ## 🚀 What I'm Building
 
-### 🌐 [Spraay x402 Gateway](https://gateway.spraay.app) — v3.0.0
+### 🌐 [Spraay x402 Gateway](https://gateway.spraay.app) — v3.2.0
 A full-stack autonomous payment gateway on Base mainnet. AI agents pay USDC per request to access DeFi, payments, AI inference, analytics, payroll, escrow, and 200+ AI models. No API keys, no accounts — just HTTP + crypto.
 
 - 🤖 200+ AI models via OpenAI-compatible API
 - 💸 Batch payments — any ERC-20 token + native ETH via Spraay
 - 🔗 Bridge, swap, payroll, invoicing, escrow, oracle, analytics
 - 🧠 AI inference — wallet classification, tx analysis, contract explanation
+- 📡 Email, XMTP messaging, webhooks, cron scheduling, IPFS storage, multi-chain RPC
+- 🔐 KYC, auth sessions, audit trail, tax calculation — all with Supabase persistence
 - 🏪 Bazaar discoverable — agents find endpoints autonomously
 - 🔗 Coinbase CDP facilitator on Base mainnet
 - ⚡ Built on [x402 protocol](https://x402.org)
-- 📡 **33 paid + 6 free endpoints** | [Discovery →](https://gateway.spraay.app/.well-known/x402.json)
+- 📡 **57 paid (56 active) + 5 free endpoints** | [Discovery →](https://gateway.spraay.app/.well-known/x402.json)
 
 🔗 [Live →](https://gateway.spraay.app) | [GitHub →](https://github.com/plagtech/spraay-x402-gateway)
 
-### 🤖 Spraay x402 MCP Server — v3.1.0
+### 🤖 Spraay x402 MCP Server — v3.2.0
 **[mcp.spraay.app](https://mcp.spraay.app) · [github.com/plagtech/spraay-x402-mcp](https://github.com/plagtech/spraay-x402-mcp)**
 
-33 tools across 11 categories — connects Claude Desktop, Cursor, or any MCP-compatible AI to full-stack DeFi infrastructure on Base. Pay USDC per call via x402 protocol.
+57 tools across 15 categories — connects Claude Desktop, Cursor, or any MCP-compatible AI to full-stack DeFi infrastructure on Base. Pay USDC per call via x402 protocol. 56 of 57 tools fully active with persistent Supabase storage.
 
 ```json
 {
@@ -38,7 +40,7 @@ A full-stack autonomous payment gateway on Base mainnet. AI agents pay USDC per 
 }
 ```
 
-**Categories:** AI · Payments · Swap · Oracle · Bridge · Payroll · Invoice · Analytics · Escrow · AI Inference · Data
+**Categories:** AI · Payments · Swap · Oracle · Bridge · Payroll · Invoice · Analytics · Escrow · AI Inference · Communication · Infrastructure · Identity & Access · Compliance · Data
 
 **Listed on:** [Smithery](https://smithery.ai/servers/Plagtech/Spraay-x402-mcp) · [MCP.so](https://mcp.so) · [Glama](https://glama.ai/mcp/servers/@plagtech/spraay-x402-mcp) · [PulseMCP](https://pulsemcp.com) · [mcp.spraay.app](https://mcp.spraay.app)
 
@@ -98,8 +100,8 @@ DEX on Base with instant swaps and scheduled trading via gas-free transactions.
 
 | Protocol | Details |
 |----------|---------|
-| **x402 Gateway** | 33 paid endpoints, Bazaar discoverable, v3.0.0 |
-| **MCP Server** | 33 tools, v3.1.0, live at mcp.spraay.app |
+| **x402 Gateway** | 57 paid endpoints (56 active), Bazaar discoverable, v3.2.0 |
+| **MCP Server** | 57 tools (56 active), v3.2.0, live at mcp.spraay.app |
 | **A2A Agent Card** | [agent.spraay.app](https://agent.spraay.app/.well-known/agent-card.json) |
 | **XMTP Agent** | Agent Mango on production network |
 | **ERC-8004** | Registered agent identities on Ethereum mainnet (#26345, #26346) |
@@ -133,6 +135,7 @@ Web3:          Wagmi, Viem, OnchainKit, ethers.js, RainbowKit, Phantom
 AI/Agents:     x402 Protocol, MCP, Coinbase AgentKit, ERC-8004, A2A, XMTP
 DeFi:          Uniswap V3, Aerodrome
 Backend:       Node.js, Express, Python, bittensor SDK
+Database:      Supabase (Postgres)
 Infra:         Railway, Vercel, Fly.io, Coinbase CDP, Coinbase Paymaster
 Tools:         EIP-5792, Coinbase Onramp, OpenZeppelin, OpenRouter
 ```
@@ -140,8 +143,8 @@ Tools:         EIP-5792, Coinbase Onramp, OpenZeppelin, OpenRouter
 ---
 
 ## 🎯 Current Focus
-- 💧 Spraay x402 Gateway v3.0.0 — 33 endpoints live, expanding to 57
-- 🤖 MCP server v3.1.0 — 33 tools, live at mcp.spraay.app
+- 💧 Spraay x402 Gateway v3.2.0 — 57 endpoints (56 active), Supabase persistence
+- 🤖 MCP server v3.2.0 — 57 tools (56 active), live at mcp.spraay.app
 - 📈 Ecosystem grants (Arbitrum, Monad, Stacks, Agent Fund)
 - 🤝 Building in the Base Build cohort
 
