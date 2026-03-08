@@ -113,7 +113,7 @@ DEX on Base with instant swaps and scheduled trading via gas-free transactions.
 - [LangChain Community PR #557](https://github.com/langchain-ai/langchain/pull/557) — open
 - [ElizaOS PR #274](https://github.com/elizaos/eliza/pull/274) — open
 - [CrewAI PR #314](https://github.com/crewAIInc/crewAI/pull/314) — open
-- [Block Goose PR #7525](https://github.com/block/goose/pull/7525) — open
+- [Block Goose PR #7525](https://github.com/block/goose/pull/7525) ✅ merged
 - [smolagents/Hugging Face PR #1997](https://github.com/huggingface/smolagents/pull/1997) — open
 - [Bankr OpenClaw](https://bankr.bot) — open
 
