@@ -86,19 +86,6 @@ Open standard for AI agents to hire robots via x402 USDC micropayments. 8 gatewa
 - 📡 [rtp-xmtp-mesh](https://github.com/plagtech/rtp-xmtp-mesh) — XMTP mesh network
 - 🌟 [awesome-rtp](https://github.com/plagtech/awesome-rtp) — Curated resources
 
-### 🛡️ [ProofLayer](https://prooflayer.net)
-Agent trust and reputation infrastructure. Multi-dimensional trust scores via EAS attestations on Base.
-
-- 📦 npm SDK (`prooflayer-sdk`)
-- 🌐 API at [api.prooflayer.net](https://api.prooflayer.net)
-- 📊 Scoring: Financial 30% / Social 15% / Reliability 30% / Trust 25%
-
-### 💰 [StablePay](https://stablepay.me)
-Crypto payroll built on Spraay. Employer dashboard + recipient mobile app.
-
-### 🌐 [Involver](https://involver.app)
-Social network concept — Facebook-style + AOL topic rooms with crypto tipping via Base tokens.
-
 ### 📱 [Spraay Base App](https://spraay-base-dapp.vercel.app)
 Standalone dapp on Base with batch payments, Farcaster Mini App, and fiat onramp.
 
@@ -106,20 +93,6 @@ Standalone dapp on Base with batch payments, Farcaster Mini App, and fiat onramp
 DEX on Base with instant swaps and scheduled trading via gas-free transactions. Routes through Uniswap V3 & Aerodrome.
 
 🔗 [Try it →](https://mangoswap.xyz) | [GitHub →](https://github.com/plagtech/mangoswap)
-
----
-
-## 🟢 NVIDIA Ecosystem Integration
-
-Spraay is integrated across NVIDIA's autonomous agent stack announced at GTC 2026:
-
-| NVIDIA Product | Integration | Status |
-|---------------|-------------|--------|
-| **OpenShell** | [Spraay sandbox](https://github.com/NVIDIA/OpenShell-Community/pull/50) — payment layer for autonomous agents | PR #50 |
-| **NeMo Agent Toolkit** | [Crypto payments agent example](https://github.com/NVIDIA/NeMo-Agent-Toolkit-Examples/pull/20) — 8 async tools | PR #20 |
-| **NemoClaw** | [Payment provider proposal](https://github.com/NVIDIA/NemoClaw/issues/625) — x402 integration design | Issue #625 |
-| **Isaac GR00T** | RTP for robot task commissioning — agents hire GR00T-powered robots | Issue |
-| **awesome-nemoclaw** | [Network policy preset](https://github.com/VoltAgent/awesome-nemoclaw/pull/1) — gateway egress rules | PR #1 |
 
 ---
 
@@ -155,7 +128,7 @@ Spraay is integrated across NVIDIA's autonomous agent stack announced at GTC 202
 ---
 
 ## 📚 Author
-**"28 Tips for Creating Wealth in Crypto"** — pen name Brent Hamlin
+**"28 Tips for Creating Wealth in Crypto"** 
 
 Insights and strategies from years navigating crypto markets since 2021
 
@@ -182,9 +155,7 @@ Tools:         EIP-5792, Coinbase Onramp, OpenZeppelin, OpenRouter, BlockRun
 
 ## 🎯 Current Focus
 - 💧 Spraay x402 Gateway v3.5.0 — 76 paid endpoints, Agent Wallet (Category 17), 13 chains
-- 🟢 NVIDIA ecosystem — OpenShell sandbox, NeMo Agent Toolkit, NemoClaw, Isaac GR00T
 - 🤖 RTP — Robot Task Protocol for Physical AI + Base Batches 2026 Robotics Track
-- 🛡️ ProofLayer — agent trust scores + EAS attestations on Base
 - 📈 Ecosystem grants (Arbitrum, Monad, Stacks, Agent Fund)
 - 🤝 Building in the Base Build cohort
 
