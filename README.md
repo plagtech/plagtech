@@ -1,7 +1,7 @@
 # 👋 Hey, I'm Plagtech
 **DeFi Builder | Crypto Author | Multi-Chain Ecosystem**
 
-Building the future of decentralized finance across 13 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧡🧠₿⚡
+Building the future of decentralized finance across 15 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧡🧠₿⚡
 
 ---
 
