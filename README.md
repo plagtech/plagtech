@@ -183,5 +183,5 @@ Tools:         EIP-5792, Coinbase Onramp, OpenZeppelin, OpenRouter, BlockRun
 ---
 
 <div align="center">
-  <sub>Building on 15 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧡🧠₿⚡💧⭐ · Integrated with Google ADK & NVIDIA's autonomous agent stack 🟢</sub>
+  <sub>Building on 15 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧡🧠₿⚡💧⭐ · Integrated with Google ADK 🟢</sub>
 </div>
