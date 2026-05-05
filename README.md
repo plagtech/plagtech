@@ -7,7 +7,7 @@ Building the future of decentralized finance across 15 chains 🔵⟠⬡🟣🟡
 
 ## 🚀 What I'm Building
 
-### 🌐 [Spraay x402 Gateway](https://gateway.spraay.app) — v3.5.0
+### 🌐 [Spraay x402 Gateway](https://gateway.spraay.app) — v3.7.0
 A full-stack autonomous payment gateway on Base mainnet. AI agents pay USDC per request to access DeFi, payments, AI inference, analytics, payroll, escrow, and 200+ AI models. No API keys, no accounts — just HTTP + crypto.
 
 - 🤖 **93 AI models** — dual-provider inference via **BlockRun** (43 models, x402 wallet auth) + **OpenRouter** (50 models, API key)
@@ -20,7 +20,7 @@ A full-stack autonomous payment gateway on Base mainnet. AI agents pay USDC per 
 - 🏪 Bazaar discoverable — agents find endpoints autonomously
 - 🔗 Coinbase CDP facilitator on Base mainnet
 - ⚡ Built on [x402 protocol](https://x402.org)
-- 📡 **76 paid + 11 free endpoints** | [Discovery →](https://gateway.spraay.app/.well-known/x402.json)
+- 📡 **88 paid + 11 free endpoints** | [Discovery →](https://gateway.spraay.app/.well-known/x402.json)
 
 🔗 [Live →](https://gateway.spraay.app) | [Docs →](https://docs.spraay.app) | [GitHub →](https://github.com/plagtech/spraay-x402-gateway)
 
@@ -46,7 +46,7 @@ A full-stack autonomous payment gateway on Base mainnet. AI agents pay USDC per 
 **Listed on:** [Smithery](https://smithery.ai/servers/@plagtech/spraay-x402-mcp) · [Official MCP Registry](https://github.com/modelcontextprotocol/servers) · [Glama](https://glama.ai/mcp/servers/@plagtech/spraay-x402-mcp) · [PulseMCP](https://pulsemcp.com) · [mcp.spraay.app](https://mcp.spraay.app)
 
 ### 💧 [Spraay](https://spraay.app)
-Multi-chain batch payment protocol — live on **13 chains**. Send any ERC-20 token or native currency to 200+ recipients in a single transaction.
+Multi-chain batch payment protocol — live on **15 chains**. Send any ERC-20 token or native currency to 200+ recipients in a single transaction.
 
 **Live Deployments:**
 
@@ -65,6 +65,8 @@ Multi-chain batch payment protocol — live on **13 chains**. Send any ERC-20 to
 | 🧠 [Bittensor](https://spraay.app/tao) | spraay-tao | TAO (native `utility.batch_all`) |
 | ⚡ [Stacks](https://spraay.app/stacks) | [`ST7431...spraay-batch`](https://explorer.stacks.co/txid/ST7431QK2YMPP3SQYJXZ3GTB6MJVGF07N2EV9R1F.spraay-batch) | STX (Clarity contract) |
 | ₿ [Bitcoin](https://btc.spraay.app) | PSBT-based | BTC (UniSat/Xverse wallets) |
+| 💧 [XRP Ledger](https://spraay.app/xrp) | x402 Gateway | XRP (native batch) |
+| ⭐ [Stellar](https://spraay.app/stellar) | x402 Gateway | XLM (native batch) |
 
 **Features:**
 - ⚡ ~80% gas savings vs individual transfers
@@ -100,7 +102,8 @@ DEX on Base with instant swaps and scheduled trading via gas-free transactions. 
 
 | Protocol | Details |
 |----------|---------|
-| **x402 Gateway** | 76 paid + 11 free endpoints, Bazaar discoverable, v3.5.0 |
+| **Google ADK** | ✅ [Merged into google/adk-python-community](https://github.com/google/adk-python-community/pull/95) — first community tool |
+| **x402 Gateway** | 88 paid + 11 free endpoints, Bazaar discoverable, v3.7.0 |
 | **MCP Server** | 60+ tools, v3.3.0, live at mcp.spraay.app |
 | **Agent Wallet** | Category 17 — managed wallets with session keys on Base mainnet |
 | **A2A Agent Card** | [agent.spraay.app](https://agent.spraay.app/.well-known/agent-card.json) |
@@ -111,6 +114,7 @@ DEX on Base with instant swaps and scheduled trading via gas-free transactions. 
 | **OpenClaw Skill** | Published on ClawHub as `plagtech` |
 
 **Ecosystem integrations:**
+- [google/adk-python-community PR #95](https://github.com/google/adk-python-community/pull/95) ✅ merged — **first community tool in Google's Agent Development Kit**
 - [coinbase/x402 ecosystem listing](https://github.com/coinbase/x402) ✅ merged
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ✅ merged
 - [Block Goose PR #7525](https://github.com/block/goose/pull/7525) ✅ merged
@@ -141,7 +145,7 @@ Blockchain:    Solidity, Clarity, Base, Ethereum, Arbitrum, Polygon, BNB Chain,
 Frontend:      React, Next.js, TypeScript, TailwindCSS
 Web3:          Wagmi, Viem, OnchainKit, ethers.js, RainbowKit, Phantom,
                UniSat, Xverse, Leather
-AI/Agents:     x402 Protocol, MCP, Coinbase AgentKit, ERC-8004, A2A, XMTP,
+AI/Agents:     x402 Protocol, MCP, Google ADK, Coinbase AgentKit, ERC-8004, A2A, XMTP,
                BlockRun SDK, Virtuals ACP, Dexter, NVIDIA Agent Toolkit,
                NVIDIA OpenShell, RTP, ProofLayer
 DeFi:          Uniswap V3, Aerodrome
@@ -154,7 +158,8 @@ Tools:         EIP-5792, Coinbase Onramp, OpenZeppelin, OpenRouter, BlockRun
 ---
 
 ## 🎯 Current Focus
-- 💧 Spraay x402 Gateway v3.5.0 — 76 paid endpoints, Agent Wallet (Category 17), 13 chains
+- 🏆 Spraay merged into [Google ADK](https://github.com/google/adk-python-community) — first community-contributed tool
+- 💧 Spraay x402 Gateway v3.7.0 — 88 paid endpoints, Agent Wallet (Category 17), 15 chains
 - 🤖 RTP — Robot Task Protocol for Physical AI + Base Batches 2026 Robotics Track
 - 📈 Ecosystem grants (Arbitrum, Monad, Stacks, Agent Fund)
 - 🤝 Building in the Base Build cohort
@@ -178,5 +183,5 @@ Tools:         EIP-5792, Coinbase Onramp, OpenZeppelin, OpenRouter, BlockRun
 ---
 
 <div align="center">
-  <sub>Building on 13 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧡🧠₿⚡ · Integrated with NVIDIA's autonomous agent stack 🟢</sub>
+  <sub>Building on 15 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧡🧠₿⚡💧⭐ · Integrated with Google ADK & NVIDIA's autonomous agent stack 🟢</sub>
 </div>
