@@ -1,33 +1,38 @@
 # 👋 Hey, I'm Plagtech
 **DeFi Builder | Crypto Author | Multi-Chain Ecosystem**
 
-Building the future of decentralized finance across 15 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧡🧠₿⚡
+Building the future of decentralized finance across 15 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧡🧠₿⚡💧⭐
 
 ---
 
 ## 🚀 What I'm Building
 
-### 🌐 [Spraay x402 Gateway](https://gateway.spraay.app) — v3.7.0
-A full-stack autonomous payment gateway on Base mainnet. AI agents pay USDC per request to access DeFi, payments, AI inference, analytics, payroll, escrow, and 200+ AI models. No API keys, no accounts — just HTTP + crypto.
+### 🌐 [Spraay x402 Gateway](https://gateway.spraay.app) — v3.8.1
+A full-stack autonomous payment gateway live on **Base & Solana mainnet**. AI agents pay USDC per request to access DeFi, payments, AI inference, analytics, payroll, escrow, research, compute, and 200+ AI models. No API keys, no accounts — just HTTP + crypto.
 
-- 🤖 **93 AI models** — dual-provider inference via **BlockRun** (43 models, x402 wallet auth) + **OpenRouter** (50 models, API key)
-- 🧠 **Smart routing** — `blockrun/auto` picks the cheapest capable model via ClawRouter (saves up to 78%)
-- 💸 Batch payments — any ERC-20 token + native ETH via Spraay
-- 🔗 Bridge, swap, payroll, invoicing, escrow, oracle, analytics
-- 🧠 AI inference — wallet classification, tx analysis, contract explanation
-- 📡 Email, XMTP messaging, webhooks, cron scheduling, IPFS storage, multi-chain RPC
-- 🔐 KYC, auth sessions, audit trail, tax calculation — all with Supabase persistence
-- 🏪 Bazaar discoverable — agents find endpoints autonomously
-- 🔗 Coinbase CDP facilitator on Base mainnet
-- ⚡ Built on [x402 protocol](https://x402.org)
-- 📡 **88 paid + 11 free endpoints** | [Discovery →](https://gateway.spraay.app/.well-known/x402.json)
+- 📡 **157 primitives — 151 paid + 6 free across 39 categories** | [Discovery →](https://gateway.spraay.app/.well-known/x402.json)
+- 🤖 **200+ AI models** — OpenAI-compatible chat completions via **BlockRun + OpenRouter** (streaming, function calling, vision)
+- 🧬 **Bittensor decentralized inference** — censorship-resistant chat, image gen, and embeddings via SN64/SN19
+- 💸 **Batch payments** — any ERC-20 token + native currency to 200 recipients, implementing **[BPA 1.0](https://docs.spraay.app/bpa/1.0/)** (Batch Payments for Agents)
+- 🔗 Swap, bridge, payroll, invoicing, escrow, oracle, analytics, DeFi positions
+- 🧠 On-chain inference — wallet classification, tx analysis, contract explanation, intelligence briefings
+- ⚙️ **Managed Compute + Compute Futures** — text/image/video/TTS/STT/embeddings with prepaid credit tiers
+- 🔍 **Search / RAG** — web search, content extraction, and question answering
+- 📚 **Research & Reference (23 endpoints)** — academic papers, preprints, biomedical, chemistry, demographics
+- 🌍 **Geospatial (12 endpoints)**
+- 🏭 **Supply Chain (SCTP)** — suppliers, purchase orders, invoices, AI invoice verification
+- 👛 **Agent Wallet** — ERC-4337 smart wallets with session keys & spending controls
+- 📧 Email, SMS, XMTP messaging, webhooks, cron scheduling, IPFS/Arweave storage, multi-chain RPC, logs
+- 🔐 KYC/sanctions screening, auth sessions, immutable audit trail, FIFO tax & IRS 8949 reports
+- 🏪 **Bazaar discoverable** — agents find endpoints autonomously
+- ⚡ **Dual protocol** — [x402](https://x402.org) (Coinbase CDP facilitator on Base) **+ MPP** (Tempo / stripe-spt / pathUSD)
 
 🔗 [Live →](https://gateway.spraay.app) | [Docs →](https://docs.spraay.app) | [GitHub →](https://github.com/plagtech/spraay-x402-gateway)
 
-### 🤖 Spraay x402 MCP Server — v3.3.0
+### 🤖 Spraay x402 MCP Server
 **[mcp.spraay.app](https://mcp.spraay.app) · [github.com/plagtech/spraay-x402-mcp](https://github.com/plagtech/spraay-x402-mcp)**
 
-60+ tools across 16 categories — connects Claude Desktop, Cursor, or any MCP-compatible AI to full-stack DeFi infrastructure on Base. Pay USDC per call via x402 protocol. Supabase-backed persistent storage.
+**153 tools** across 25+ categories — connects Claude Desktop, Cursor, or any MCP-compatible AI to full-stack DeFi infrastructure on Base & Solana. Pay USDC per call via x402 protocol. Supabase-backed persistent storage.
 
 ```json
 {
@@ -41,12 +46,12 @@ A full-stack autonomous payment gateway on Base mainnet. AI agents pay USDC per 
 }
 ```
 
-**Categories:** AI · Payments · Swap · Oracle · Bridge · Payroll · Invoice · Analytics · Escrow · AI Inference · Communication · Infrastructure · Identity & Access · Compliance · Data · Agent Wallet
+**Categories:** AI · Bittensor · Payments · Swap · Bridge · Oracle · Payroll · Invoice · Escrow · Analytics · On-chain Inference · Managed Compute · Compute Futures · Search/RAG · Research · Communication · Infrastructure · Identity & Access · Compliance · GPU · Supply Chain (SCTP) · Agent Wallet · RTP
 
-**Listed on:** [Smithery](https://smithery.ai/servers/@plagtech/spraay-x402-mcp) · [Official MCP Registry](https://github.com/modelcontextprotocol/servers) · [Glama](https://glama.ai/mcp/servers/@plagtech/spraay-x402-mcp) · [PulseMCP](https://pulsemcp.com) · [mcp.spraay.app](https://mcp.spraay.app)
+**Listed on:** [Smithery](https://smithery.ai/server/@plagtech/spraay-x402-mcp) · [Official MCP Registry](https://github.com/modelcontextprotocol/servers) · [Glama](https://glama.ai/mcp/servers/@plagtech/spraay-x402-mcp) · [PulseMCP](https://pulsemcp.com) · [mcp.spraay.app](https://mcp.spraay.app)
 
 ### 💧 [Spraay](https://spraay.app)
-Multi-chain batch payment protocol — live on **15 chains**. Send any ERC-20 token or native currency to 200+ recipients in a single transaction.
+Multi-chain batch payment protocol — live on **15 chains**. Send any ERC-20 token or native currency to 200+ recipients in a single transaction. Open spec: **[BPA 1.0](https://docs.spraay.app/bpa/1.0/)**.
 
 **Live Deployments:**
 
@@ -79,11 +84,11 @@ Multi-chain batch payment protocol — live on **15 chains**. Send any ERC-20 to
 🔗 [spraay.app →](https://spraay.app)
 
 ### 🤖 [Robot Task Protocol (RTP)](https://github.com/plagtech/rtp-spec)
-Open standard for AI agents to hire robots via x402 USDC micropayments. 8 gateway endpoints live (Category 15).
+Open standard for AI agents to hire robots via x402 USDC micropayments. 8 gateway endpoints live.
 
 - 📐 [rtp-spec](https://github.com/plagtech/rtp-spec) — Protocol specification
 - 🔧 [rtp-sdk](https://github.com/plagtech/rtp-sdk) — JavaScript SDK
-- 🐍 [rtp-python-sdk](https://github.com/plagtech/rtp-python-sdk) — Python SDK
+- 🐍 [rtp-python-sdk](https://github.com/plagtech/rtp-python-sdk) — Python SDK (PyPI: `spraay-rtp`)
 - 🍓 [rtp-pi-demo](https://github.com/plagtech/rtp-pi-demo) — Raspberry Pi 5 hardware demo
 - 📡 [rtp-xmtp-mesh](https://github.com/plagtech/rtp-xmtp-mesh) — XMTP mesh network
 - 🌟 [awesome-rtp](https://github.com/plagtech/awesome-rtp) — Curated resources
@@ -102,37 +107,36 @@ DEX on Base with instant swaps and scheduled trading via gas-free transactions. 
 
 | Protocol | Details |
 |----------|---------|
+| **x402 Gateway** | 157 primitives (151 paid + 6 free), 39 categories, Bazaar discoverable, v3.8.1 — Base & Solana |
+| **Dual Protocol** | x402 (Coinbase CDP facilitator) + MPP (Tempo / stripe-spt / pathUSD) |
+| **BPA 1.0** | Batch Payments for Agents — open spec at [docs.spraay.app/bpa/1.0](https://docs.spraay.app/bpa/1.0/) |
+| **MCP Server** | 153 tools, live at mcp.spraay.app |
 | **Google ADK** | ✅ [Merged into google/adk-python-community](https://github.com/google/adk-python-community/pull/95) — first community tool |
-| **x402 Gateway** | 88 paid + 11 free endpoints, Bazaar discoverable, v3.7.0 |
-| **MCP Server** | 60+ tools, v3.3.0, live at mcp.spraay.app |
-| **Agent Wallet** | Category 17 — managed wallets with session keys on Base mainnet |
+| **Agent Wallet** | ERC-4337 smart wallets with session keys on Base mainnet |
 | **A2A Agent Card** | [agent.spraay.app](https://agent.spraay.app/.well-known/agent-card.json) |
 | **XMTP Agent** | Agent Mango on production network via Fly.io |
 | **ERC-8004** | MangoSwap #26345, Spraay #26346, Dexter Agent #27567 |
 | **Virtuals ACP** | Registered Provider on [agdp.io](https://agdp.io) — batch payments as a service |
 | **RTP** | 8 endpoints, Robot Task Protocol for physical AI |
+| **SCTP** | 8 endpoints, Supply Chain Trade Protocol |
 | **OpenClaw Skill** | Published on ClawHub as `plagtech` |
 
 **Ecosystem integrations:**
 - [google/adk-python-community PR #95](https://github.com/google/adk-python-community/pull/95) ✅ merged — **first community tool in Google's Agent Development Kit**
+- [AWS Strands PR #825](https://github.com/strands-agents/tools/pull/825) ✅ merged
 - [coinbase/x402 ecosystem listing](https://github.com/coinbase/x402) ✅ merged
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ✅ merged
-- [Block Goose PR #7525](https://github.com/block/goose/pull/7525) ✅ merged
-- [NVIDIA OpenShell-Community PR #50](https://github.com/NVIDIA/OpenShell-Community/pull/50) — open
+- [Block Goose](https://github.com/block/goose) ✅ merged
 - [NVIDIA NeMo-Agent-Toolkit-Examples PR #20](https://github.com/NVIDIA/NeMo-Agent-Toolkit-Examples/pull/20) — open
-- [NVIDIA NemoClaw Issue #625](https://github.com/NVIDIA/NemoClaw/issues/625) — open
-- [VoltAgent awesome-nemoclaw PR #1](https://github.com/VoltAgent/awesome-nemoclaw/pull/1) — open
 - [Coinbase AgentKit PR #944](https://github.com/coinbase/agentkit/pull/944) — open
-- [LangChain Community PR #557](https://github.com/langchain-ai/langchain/pull/557) — open
-- [ElizaOS PR #274](https://github.com/elizaos/eliza/pull/274) — open
-- [CrewAI PR #314](https://github.com/crewAIInc/crewAI/pull/314) — open
-- [smolagents/Hugging Face PR #1997](https://github.com/huggingface/smolagents/pull/1997) — open
+- [LangChain docs PR #3245](https://github.com/langchain-ai/docs/pull/3245) — open · `langchain-spraay` on PyPI
+- [Solana Foundation pay-skills PR #97](https://github.com/solana-foundation/pay-skills/pull/97) — open
 - [Bankr OpenClaw](https://bankr.bot) — deployed
 
 ---
 
 ## 📚 Author
-**"28 Tips for Creating Wealth in Crypto"** 
+**"28 Tips for Creating Wealth in Crypto"**
 
 Insights and strategies from years navigating crypto markets since 2021
 
@@ -145,23 +149,24 @@ Blockchain:    Solidity, Clarity, Base, Ethereum, Arbitrum, Polygon, BNB Chain,
 Frontend:      React, Next.js, TypeScript, TailwindCSS
 Web3:          Wagmi, Viem, OnchainKit, ethers.js, RainbowKit, Phantom,
                UniSat, Xverse, Leather
-AI/Agents:     x402 Protocol, MCP, Google ADK, Coinbase AgentKit, ERC-8004, A2A, XMTP,
-               BlockRun SDK, Virtuals ACP, Dexter, NVIDIA Agent Toolkit,
-               NVIDIA OpenShell, RTP, ProofLayer
+AI/Agents:     x402 Protocol, MPP, MCP, Google ADK, Coinbase AgentKit, ERC-8004,
+               A2A, XMTP, BlockRun SDK, Bittensor, Virtuals ACP, Dexter,
+               NVIDIA Agent Toolkit, RTP, SCTP, ProofLayer
 DeFi:          Uniswap V3, Aerodrome
 Backend:       Node.js, Express, Python, bittensor SDK
 Database:      Supabase (Postgres)
 Infra:         Railway, Vercel, Fly.io, Coinbase CDP, Coinbase Paymaster
-Tools:         EIP-5792, Coinbase Onramp, OpenZeppelin, OpenRouter, BlockRun
+Tools:         EIP-5792, EIP-4337, Coinbase Onramp, OpenZeppelin, OpenRouter, BlockRun
 ```
 
 ---
 
 ## 🎯 Current Focus
-- 🏆 Spraay merged into [Google ADK](https://github.com/google/adk-python-community) — first community-contributed tool
-- 💧 Spraay x402 Gateway v3.7.0 — 88 paid endpoints, Agent Wallet (Category 17), 15 chains
+- 💧 Spraay x402 Gateway v3.8.1 — 157 primitives, dual protocol (x402 + MPP), Base & Solana
+- 📐 BPA 1.0 — open Batch Payments for Agents spec
 - 🤖 RTP — Robot Task Protocol for Physical AI + Base Batches 2026 Robotics Track
-- 📈 Ecosystem grants (Arbitrum, Monad, Stacks, Agent Fund)
+- 🏭 SCTP — Supply Chain Trade Protocol for B2B agent commerce
+- 📈 Ecosystem grants (Arbitrum, Stacks, Agent Fund, and more)
 - 🤝 Building in the Base Build cohort
 
 ---
