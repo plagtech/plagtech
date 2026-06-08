@@ -19,7 +19,6 @@ A full-stack autonomous payment gateway live on **Base & Solana mainnet**. AI ag
 - ⚙️ **Managed Compute + Compute Futures** — text/image/video/TTS/STT/embeddings with prepaid credit tiers
 - 🔍 **Search / RAG** — web search, content extraction, and question answering
 - 📚 **Research & Reference (23 endpoints)** — academic papers, preprints, biomedical, chemistry, demographics
-- 🌍 **Geospatial (12 endpoints)**
 - 🏭 **Supply Chain (SCTP)** — suppliers, purchase orders, invoices, AI invoice verification
 - 👛 **Agent Wallet** — ERC-4337 smart wallets with session keys & spending controls
 - 📧 Email, SMS, XMTP messaging, webhooks, cron scheduling, IPFS/Arweave storage, multi-chain RPC, logs
