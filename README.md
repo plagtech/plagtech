@@ -130,7 +130,6 @@ DEX on Base with instant swaps and scheduled trading via gas-free transactions. 
 - [Coinbase AgentKit PR #944](https://github.com/coinbase/agentkit/pull/944) — open
 - [LangChain docs PR #3245](https://github.com/langchain-ai/docs/pull/3245) — open · `langchain-spraay` on PyPI
 - [Solana Foundation pay-skills PR #97](https://github.com/solana-foundation/pay-skills/pull/97) — open
-- [Bankr OpenClaw](https://bankr.bot) — deployed
 
 ---
 
