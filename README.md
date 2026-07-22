@@ -10,7 +10,7 @@ Building the future of decentralized finance across 15 chains 🔵⟠⬡🟣🟡
 ### 🌐 [Spraay x402 Gateway](https://gateway.spraay.app) — v3.8.1
 A full-stack autonomous payment gateway live on **Base & Solana mainnet**. AI agents pay USDC per request to access DeFi, payments, AI inference, analytics, payroll, escrow, research, compute, and 200+ AI models. No API keys, no accounts — just HTTP + crypto.
 
-- 📡 **157 primitives — 151 paid + 6 free across 39 categories** | [Discovery →](https://gateway.spraay.app/.well-known/x402.json)
+- 📡 **190 primitives — 158 paid + 32 free across 33 categories** | [Discovery →](https://gateway.spraay.app/.well-known/x402.json)
 - 🤖 **200+ AI models** — OpenAI-compatible chat completions via **BlockRun + OpenRouter** (streaming, function calling, vision)
 - 🧬 **Bittensor decentralized inference** — censorship-resistant chat, image gen, and embeddings via SN64/SN19
 - 💸 **Batch payments** — any ERC-20 token + native currency to 200 recipients, implementing **[BPA 1.0](https://docs.spraay.app/bpa/1.0/)** (Batch Payments for Agents)
@@ -76,6 +76,7 @@ Multi-chain batch payment protocol — live on **15 chains**. Send any ERC-20 to
 - ⚡ ~80% gas savings vs individual transfers
 - 🪙 Supports any ERC-20/BEP-20/SPL token + native currency
 - 📊 Equal or variable amount distributions
+- 🔏 EIP-2612 permit-optimized approvals — exact allowance, 30-minute expiry
 - 📁 CSV import for large batches
 - 🔗 Social handle resolution (Farcaster, ENS, Basenames)
 - 💎 0.3% protocol fee
@@ -83,7 +84,7 @@ Multi-chain batch payment protocol — live on **15 chains**. Send any ERC-20 to
 🔗 [spraay.app →](https://spraay.app)
 
 ### 🤖 [Robot Task Protocol (RTP)](https://github.com/plagtech/rtp-spec)
-Open standard for AI agents to hire robots via x402 USDC micropayments. 8 gateway endpoints live.
+Open standard for AI agents to hire robots via x402 USDC micropayments. 8 gateway endpoints live. **Merged into NVIDIA NeMo-Agent-Toolkit-Examples.**
 
 - 📐 [rtp-spec](https://github.com/plagtech/rtp-spec) — Protocol specification
 - 🔧 [rtp-sdk](https://github.com/plagtech/rtp-sdk) — JavaScript SDK
@@ -106,11 +107,13 @@ DEX on Base with instant swaps and scheduled trading via gas-free transactions. 
 
 | Protocol | Details |
 |----------|---------|
-| **x402 Gateway** | 157 primitives (151 paid + 6 free), 39 categories, Bazaar discoverable, v3.8.1 — Base & Solana |
+| **x402 Gateway** | 190 primitives (158 paid + 32 free), 33 categories, Bazaar discoverable, v3.8.1 — Base & Solana |
 | **Dual Protocol** | x402 (Coinbase CDP facilitator) + MPP (Tempo / stripe-spt / pathUSD) |
 | **BPA 1.0** | Batch Payments for Agents — open spec at [docs.spraay.app/bpa/1.0](https://docs.spraay.app/bpa/1.0/) |
 | **MCP Server** | 153 tools, live at mcp.spraay.app |
+| **NVIDIA NeMo** | ✅ Merged — full paid toolset (batch, escrow, RTP) in [NeMo-Agent-Toolkit-Examples](https://github.com/NVIDIA/NeMo-Agent-Toolkit-Examples) |
 | **Google ADK** | ✅ [Merged into google/adk-python-community](https://github.com/google/adk-python-community/pull/95) — first community tool |
+| **AWS Strands** | ✅ [Merged into strands-agents/tools](https://github.com/strands-agents/tools/pull/825) |
 | **Agent Wallet** | ERC-4337 smart wallets with session keys on Base mainnet |
 | **A2A Agent Card** | [agent.spraay.app](https://agent.spraay.app/.well-known/agent-card.json) |
 | **XMTP Agent** | Agent Mango on production network via Fly.io |
@@ -120,14 +123,22 @@ DEX on Base with instant swaps and scheduled trading via gas-free transactions. 
 | **SCTP** | 8 endpoints, Supply Chain Trade Protocol |
 | **OpenClaw Skill** | Published on ClawHub as `plagtech` |
 
-**Ecosystem integrations:**
-- [google/adk-python-community PR #95](https://github.com/google/adk-python-community/pull/95) ✅ merged — **first community tool in Google's Agent Development Kit**
-- [AWS Strands PR #825](https://github.com/strands-agents/tools/pull/825) ✅ merged
-- [coinbase/x402 ecosystem listing](https://github.com/coinbase/x402) ✅ merged
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ✅ merged
-- [Block Goose](https://github.com/block/goose) ✅ merged
-- [NVIDIA NeMo-Agent-Toolkit-Examples PR #20](https://github.com/NVIDIA/NeMo-Agent-Toolkit-Examples/pull/20) — open
-- [Coinbase AgentKit PR #944](https://github.com/coinbase/agentkit/pull/944) — open
+---
+
+## 🏆 Merged Ecosystem Integrations
+
+Spraay's payment toolset is merged into the official toolkits of **NVIDIA, Google, AWS, Coinbase, and Block**:
+
+- 🟩 **[NVIDIA NeMo-Agent-Toolkit-Examples PR #27](https://github.com/NVIDIA/NeMo-Agent-Toolkit-Examples/pull/27)** ✅ merged — **full paid toolset: batch payments, escrow, and RTP**
+- 🟩 **[NVIDIA NeMo-Agent-Toolkit-Examples PR #20](https://github.com/NVIDIA/NeMo-Agent-Toolkit-Examples/pull/20)** ✅ merged — free tools
+- 🟢 **[google/adk-python-community PR #95](https://github.com/google/adk-python-community/pull/95)** ✅ merged — **first community tool in Google's Agent Development Kit**
+- 🟠 **[AWS Strands PR #825](https://github.com/strands-agents/tools/pull/825)** ✅ merged
+- 🔵 **[coinbase/x402 ecosystem listing](https://github.com/coinbase/x402)** ✅ merged
+- ⬛ **[Block Goose](https://github.com/block/goose)** ✅ merged
+- 🌟 **[punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** ✅ merged
+
+**In review:**
+- [Coinbase AgentKit PR #944](https://github.com/coinbase/agentkit/pull/944) — open · refreshed July 2026 with 8 actions: batch payments, EIP-2612 permit approvals, free pre-flight validation/estimation, x402-metered gateway execution, and escrow
 - [LangChain docs PR #3245](https://github.com/langchain-ai/docs/pull/3245) — open · `langchain-spraay` on PyPI
 - [Solana Foundation pay-skills PR #97](https://github.com/solana-foundation/pay-skills/pull/97) — open
 
@@ -149,7 +160,7 @@ Web3:          Wagmi, Viem, OnchainKit, ethers.js, RainbowKit, Phantom,
                UniSat, Xverse, Leather
 AI/Agents:     x402 Protocol, MPP, MCP, Google ADK, Coinbase AgentKit, ERC-8004,
                A2A, XMTP, BlockRun SDK, Bittensor, Virtuals ACP, Dexter,
-               NVIDIA Agent Toolkit, RTP, SCTP, ProofLayer
+               NVIDIA Agent Toolkit, AWS Strands, RTP, SCTP, ProofLayer
 DeFi:          Uniswap V3, Aerodrome
 Backend:       Node.js, Express, Python, bittensor SDK
 Database:      Supabase (Postgres)
@@ -160,11 +171,12 @@ Tools:         EIP-5792, EIP-4337, Coinbase Onramp, OpenZeppelin, OpenRouter, Bl
 ---
 
 ## 🎯 Current Focus
-- 💧 Spraay x402 Gateway v3.8.1 — 157 primitives, dual protocol (x402 + MPP), Base & Solana
+- 🏆 Spraay's full toolset (batch, escrow, RTP) merged into **NVIDIA NeMo-Agent-Toolkit-Examples**
+- 💧 Spraay x402 Gateway v3.8.1 — 190 primitives, dual protocol (x402 + MPP), Base & Solana
 - 📐 BPA 1.0 — open Batch Payments for Agents spec
 - 🤖 RTP — Robot Task Protocol for Physical AI + Base Batches 2026 Robotics Track
 - 🏭 SCTP — Supply Chain Trade Protocol for B2B agent commerce
-- 📈 Ecosystem grants (Arbitrum, Stacks, Agent Fund, and more)
+- 📈 Ecosystem grants — x402 Foundation (Linux Foundation), CDP Builder Grants, Arbitrum, Stacks, Agent Fund
 - 🤝 Building in the Base Build cohort
 
 ---
@@ -186,5 +198,5 @@ Tools:         EIP-5792, EIP-4337, Coinbase Onramp, OpenZeppelin, OpenRouter, Bl
 ---
 
 <div align="center">
-  <sub>Building on 15 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧡🧠₿⚡💧⭐ · Integrated with Google ADK 🟢</sub>
+  <sub>Building on 15 chains 🔵⟠⬡🟣🟡🔺🦄🟢🔶🧡🧠₿⚡💧⭐ · Merged into NVIDIA NeMo 🟩 Google ADK 🟢 AWS Strands 🟠</sub>
 </div>
